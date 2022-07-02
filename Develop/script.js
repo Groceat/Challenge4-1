@@ -12,7 +12,7 @@ var printem = document.querySelector(".scorelist");
 var Scoresarr = JSON.parse(localStorage.getItem("Score"));
 var Namesarr = JSON.parse(localStorage.getItem("Name"));
 console.log(window.location.pathname);
-if(Namesarr!==null&&window.location.pathname=="/Users/charleswright/Desktop/challenge4git/scores.html"){
+if(Namesarr!==null&&window.location.pathname=="/Challenge4-1/scores.html"){
 for(var i =0; i<Scoresarr.length; i++){
   var scorediv = document.createElement("p");
   scorediv.textContent=Namesarr[i]+":"+Scoresarr[i];
